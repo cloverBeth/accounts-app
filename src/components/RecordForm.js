@@ -47,7 +47,7 @@ export default class RecordForm extends Component {
     return (
       <form className="form-inline mb-3" onSubmit={this.handleSubmit.bind(this)}>
         <div className="form-group mr-1">
-          <input type="text" className="form-control" onChange={this.handleChange.bind(this)} placeholder="Date" name="date" value={this.state.date} />
+          <input type="date" className="form-control" onChange={this.handleChange.bind(this)} placeholder="Date" name="date" value={this.state.date} />
         </div>
          <div className="form-group mr-1">
           <input type="text" className="form-control" onChange={this.handleChange.bind(this)} placeholder="Title" name="title" value={this.state.title} />
